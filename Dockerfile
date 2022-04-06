@@ -20,12 +20,12 @@ RUN apk update \
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV LANG C.UTF-8
 ENV TZ America/Los_Angeles
-ENV USER your unifi username
-ENV PASSWORD your unifi password
-ENV UNIFIURL https://192.168.1.1
+ENV USER jsmemeri
+ENV PASSWORD conacun286
+ENV UNIFIURL https://172.1.0.2
 ENV PORT 443
 ENV NOAPIBROWSERAUTH 0
-ENV DISPLAYNAME My Site Name
+ENV DISPLAYNAME Conalep Cancun II
 ENV APIBROWSERUSER admin
 
 # this sets password for APIBROWSERUSER to admin - please change when you do this
